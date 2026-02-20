@@ -12,7 +12,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const allowedOrigins = process.env.CLIENT_URL
   ? process.env.CLIENT_URL.split(",").map((origin) => origin.trim())
-  : ["http://localhost:5173", "http://localhost:5174"];
+  : ["http://localhost:5173", "http://localhost:5174","https://dev-blogs-xd86.vercel.app"];
 
 app.use(
   cors({
@@ -43,3 +43,4 @@ connectDB().then(() => {
     console.log(`Server running on port ${PORT}`);
   });
 });
+
