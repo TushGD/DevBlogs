@@ -1,4 +1,4 @@
-﻿# Codex Blog (MERN + TailwindCSS)
+﻿# DevBlog (MERN + TailwindCSS)
 
 A full-stack blog website built with the MERN stack and styled with TailwindCSS.
 
@@ -65,3 +65,4 @@ Frontend runs on `http://localhost:5173` and API on `http://localhost:5000`.
 
 - You must run MongoDB locally or provide a cloud connection URI.
 - Only the post author can edit/delete their posts.
+
